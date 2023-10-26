@@ -1,6 +1,8 @@
 @import "./variables";
 @import "./fonts";
 @import "./defaults";
+@import "./top-bar";
+
 
 
 /* Start landing Styles */
@@ -11,7 +13,7 @@
   background-attachment: fixed;
   text-align: center;
   padding: 9rem 0;
-  color: var(--white-color);
+  color: var($white-color);
 }
 
 .landing__title {
@@ -39,7 +41,7 @@
 
 .landing__searchbar-btn {
   border: none;
-  background-color: var(--primary-color);
+  background-color: var($primary-color1);
   position: absolute;
   left: 1rem;
   width: 6rem;
@@ -50,7 +52,7 @@
 
 .landing__searchbar-icon {
   font-size: 2.8rem;
-  color: var(--white-color);
+  color: var($white-color);
 }
 
 .landing-status {
@@ -67,7 +69,7 @@
 }
 
 .landing-status__item svg {
-  fill: var(--white-color);
+  fill: var($white-color);
 }
 
 .landing-status__count {

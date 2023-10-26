@@ -8,7 +8,7 @@ html {
 body {
   line-height: 1.6;
   font-size: 1.6rem;
-  font-family: var(--primary-font);
+  font-family: var($font);
   direction: rtl;
 }
 
@@ -21,12 +21,11 @@ body {
 
 a {
   text-decoration: none;
-  color: var(--dark-color);
+  color: var($dark-color);
   transition: all 400ms ease;
-}
-
-a:hover {
-  color: #1e83f0;
+  a:hover {
+    color: #1e83f0;
+  }
 }
 
 i {

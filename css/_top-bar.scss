@@ -1,0 +1,63 @@
+@mixin flexStyle{
+  display: flex;
+  justify-content: space-between;
+  @content;
+}
+/* Start Top-Bar Styles */
+
+.top-bar {
+    color: var($dark-color);
+    padding: 2rem 0;
+    background-color: #2a4856;
+    align-items: center;
+  }
+
+  .top-bar__content {
+    @include flexStyle{
+      padding: 0 1.5rem;
+    }
+  }
+  .top-bar__right {
+    @include flexStyle;
+  }
+  
+  .top-bar__menu {
+    @include flexStyle{
+      color:#ffffff66;
+    }
+  }
+  .top-bar__email,
+  .top-bar__phone {
+    @include flexStyle{
+      color: #fff;
+    }
+  }
+  .contact{
+    color: #fff;
+
+  }
+  .top-bar__link {
+    color:#ffffff66;
+    transition: all 400ms ease;
+    font-size: 1.5rem;
+    padding: 0 1rem;
+  }
+  .demo{
+    color:#ffffff66;
+  }
+  .top-bar__left {
+    @include flexStyle{
+      direction: ltr;
+    }
+  }
+  .top-bar__email-text, 
+  .top-bar__phone-text {
+    padding: 0 0.8rem;
+  }
+  .top-bar__email-icon,
+  .top-bar__phone-icon {
+    color: var($primary-color2);
+    font-size: 2rem;
+  }
+  
+  /* Finish Top-Bar Styles */
