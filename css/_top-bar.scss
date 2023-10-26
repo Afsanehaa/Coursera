@@ -1,10 +1,5 @@
-@mixin flexStyle{
-  display: flex;
-  justify-content: space-between;
-  @content;
-}
+$link-color:#ffffff66;
 /* Start Top-Bar Styles */
-
 .top-bar {
     color: var($dark-color);
     padding: 2rem 0;
@@ -23,27 +18,28 @@
   
   .top-bar__menu {
     @include flexStyle{
-      color:#ffffff66;
+      color:$link-color;
     }
   }
   .top-bar__email,
   .top-bar__phone {
     @include flexStyle{
-      color: #fff;
+      color: $white-color;
+      align-items: center;
     }
   }
   .contact{
-    color: #fff;
+    color:$white-color;
 
   }
   .top-bar__link {
-    color:#ffffff66;
+    color:$link-color;
     transition: all 400ms ease;
     font-size: 1.5rem;
     padding: 0 1rem;
   }
   .demo{
-    color:#ffffff66;
+    color:$link-color;
   }
   .top-bar__left {
     @include flexStyle{
@@ -57,7 +53,9 @@
   .top-bar__email-icon,
   .top-bar__phone-icon {
     color: var($primary-color2);
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
-  
+  .top-bar__demo-icon{
+    font: size 1.5rem;
+  }
   /* Finish Top-Bar Styles */

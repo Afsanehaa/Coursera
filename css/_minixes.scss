@@ -1,0 +1,5 @@
+@mixin flexStyle{
+    display: flex;
+    justify-content: space-between;
+    @content;
+  }

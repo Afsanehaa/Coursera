@@ -1,0 +1,37 @@
+/* Start Navbar Styles */
+.main-header {
+  width: 100%;
+  padding: 10px 5px;
+}
+
+.main-header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 45px;
+}
+
+.main-header__left .main-header__logo {
+  width: 155px;
+}
+
+.main-header__right {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 60%;
+}
+.main-header__right .main-header__menu {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.main-header__right .main-header__menu li {
+  margin-left: 30px;
+  position: relative;
+}
+.main-header__right .main-header__menu li a {
+  color: #46403b;
+  font-size: 14px;
+  font-weight: 900;
+}/*# sourceMappingURL=navbar.css.map */
