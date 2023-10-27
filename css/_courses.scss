@@ -27,9 +27,75 @@ color: #999;
     font-size: 13px;
     border-radius: 5px;
     color: #696969;
-
+    margin-right: 40px;
 }
 
+.courses-box{
+    width: 100%;
+    display: grid;
+    grid-template-columns: var(--thim-ekits-course-columns,repeat(4,1fr));
+    row-gap: var(--thim-ekits-course-row-gap,30px);
+    column-gap: var(--thim-ekits-course-column-gap,30px);
+}
+.course-box{
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: space-between;
+border-radius:5px 5px ;
+border: 0.5px solid #e3e3e3;
+width: 263px;
+}
 
+.course-box__img{
+width: 263px;
+height: 198px;
+border-radius:5px 5px 0 0 ;
+// position: relative;
+}
+.course-box__teacher{
+    position: relative;
+    top: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 80px;
+    height: 50px;
+    border-radius: 50%;
+}
+.course-box__teacher-img{
+width: 47px;
+height: 47px;
+border-radius: 50%;
+border: 4px solid #fff;
+}
+.course-box__teacher-name{
+font-size: 13px;
+color: #999;
+}
+.course-box__title{
+ width: 220px;
+ text-align: center;
+ border-bottom: 0.5px solid #e3e3e3;
+ font-size:15px;
+}
+.course-box__info{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 220px;
+margin-top: 7px;
+margin-bottom:7px;
+}
+.course-box__info-left{
+ width: 30%;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ color: #999;
+}
 
-
+.course-box__info-right{
+ color: red;
+}
