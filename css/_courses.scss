@@ -1,0 +1,35 @@
+.courses{
+  position: relative;
+  width: 100%;
+  margin-top: 50px;
+  
+}
+
+.courses__title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+}
+.courses__title-main{
+font-size: 28px;
+font-weight: 800;
+}
+.courses__subtitle{
+color: #999;
+}
+.courses__view{
+    width: 100px;
+    height: 30px;
+    background-color: inherit;
+    border:1px solid #d3d1d1c2;
+    font-size: 13px;
+    border-radius: 5px;
+    color: #696969;
+
+}
+
+
+
+

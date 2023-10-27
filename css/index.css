@@ -45,6 +45,7 @@ i {
   padding: 2rem 0;
   background-color: #2a4856;
   align-items: center;
+  direction: rtl;
 }
 
 .top-bar__content {
@@ -109,6 +110,38 @@ i {
 }
 
 /* Finish Top-Bar Styles */
+.courses {
+  position: relative;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.courses__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.courses__title-main {
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.courses__subtitle {
+  color: #999;
+}
+
+.courses__view {
+  width: 100px;
+  height: 30px;
+  background-color: inherit;
+  border: 1px solid rgba(211, 209, 209, 0.7607843137);
+  font-size: 13px;
+  border-radius: 5px;
+  color: #696969;
+}
+
 /* Start landing Styles */
 .landing {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/home-coursera-new.webp) no-repeat center center;

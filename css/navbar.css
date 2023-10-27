@@ -2,6 +2,7 @@
 .main-header {
   width: 100%;
   padding: 10px 5px;
+  direction: ltr;
 }
 
 .main-header__content {
@@ -18,13 +19,12 @@
 .main-header__right {
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: end;
   width: 60%;
 }
 .main-header__right .main-header__menu {
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
+  align-items: center;
 }
 .main-header__right .main-header__menu li {
   margin-left: 30px;
