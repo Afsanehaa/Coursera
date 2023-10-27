@@ -13,7 +13,7 @@ body {
   line-height: 1.6;
   font-size: 1.6rem;
   font-family: var("IRANSans");
-  direction: rtl;
+  direction: ltr;
 }
 
 *,
@@ -163,6 +163,19 @@ i {
 }
 .landing__searchbar-btn .landing__searchbar-icon {
   color: #587a77;
+  font-size: large;
+}
+
+.landing-status {
+  direction: ltr;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.landing-status__item {
+  color: #fff;
+  margin: 10px 35px;
   font-size: large;
 }
 
