@@ -1,4 +1,9 @@
 $link-color:#ffffff66;
+@mixin flexStyle{
+  display: flex;
+  justify-content: space-between;
+  @content;
+}
 /* Start Top-Bar Styles */
 .top-bar {
     color: var($dark-color);

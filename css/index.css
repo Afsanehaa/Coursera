@@ -1,5 +1,4 @@
-@import "./navbar.css";
-
+@import './navbar.css';
 @font-face {
   font-family: IRANSans;
   src: url(../fonts/IRANSans/IRANSans.ttf);
@@ -112,8 +111,8 @@ i {
 /* Finish Top-Bar Styles */
 /* Start landing Styles */
 .landing {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/background_landing.jfif) no-repeat center center;
-  background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/home-coursera-new.webp) no-repeat center center;
+  height: 520px;
   background-attachment: fixed;
   text-align: center;
   padding: 9rem 0;
@@ -123,67 +122,48 @@ i {
 .landing__title {
   font-size: 3.4rem;
   font-weight: bold;
+  color: #fff;
 }
 
 .landing__subtitle {
   font-size: 1.8rem;
   margin-top: 0.3rem;
+  color: #fff;
 }
 
 .landing__searchbar {
+  display: flex;
+  flex-direction: column;
   width: 700px;
   position: relative;
   margin: 3.5rem auto;
+  background: none;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  direction: ltr;
 }
 
 .landing__searchbar-input {
   width: 100%;
-  padding: 2.5rem;
+  padding: 1.6rem;
   border: none;
   border-radius: 1rem;
+  background: none;
+  color: #fff;
 }
 
 .landing__searchbar-btn {
   border: none;
-  background-color: var(#f9f8f8);
+  background-color: #fff;
   position: absolute;
-  left: 1rem;
+  right: 0rem;
   width: 6rem;
-  top: 0.7rem;
-  height: 6rem;
-  border-radius: 1rem;
+  top: 0rem;
+  bottom: 0rem;
 }
-
-.landing__searchbar-icon {
-  font-size: 2.8rem;
-  color: var(#fff);
-}
-
-.landing-status {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.landing-status__item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.landing-status__item svg {
-  fill: var(#fff);
-}
-
-.landing-status__count {
-  font-weight: bold;
-  font-size: 2rem;
-  margin-top: 0.5rem;
-}
-
-.landing-status__text {
-  font-weight: bold;
+.landing__searchbar-btn .landing__searchbar-icon {
+  color: #587a77;
+  font-size: large;
 }
 
 /* Finish landing Styles *//*# sourceMappingURL=index.css.map */
