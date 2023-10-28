@@ -200,6 +200,46 @@ i {
   align-items: center;
 }
 
+.new-courses {
+  height: 600px;
+  width: 100%;
+  margin-top: 140px;
+}
+
+.main-new-courses {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.new-courses__topic {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.new-courses__topic-title {
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.new-courses__topic-sub {
+  font-size: 15px;
+  color: #999;
+}
+
+.new-courses__box {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
 .courses {
   position: relative;
   width: 100%;
