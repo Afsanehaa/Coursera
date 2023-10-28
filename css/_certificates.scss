@@ -1,0 +1,57 @@
+.certificates{
+    width: 100%;
+    align-content: center;
+}
+.main-certificates{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.certificates__topic{
+    width: 100%;
+  margin-bottom: 50px;
+  align-content: center;
+}
+.certificates__title{
+font-size: 26px;
+font-weight: 800;
+}
+.certificates__sub{
+  font-size: 15px;
+  color: #999;
+}
+.certificates__box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 25px;
+}
+.certificate{
+width: 260px;
+height: 258px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+border:0.5px solid #eeeeee ;
+border-radius:4px ;
+
+ img{
+   width: 260px;
+   height: 193px;
+ }
+ span{
+    margin-bottom: 18px;
+ }
+
+}
+
+
+
+
