@@ -1,0 +1,80 @@
+.body{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: aqua;
+}
+.test{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.878);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.registerForm{
+    width: 35%;
+    height: 70%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+input,button{
+    width: 70%;
+    height: 35px;
+    border: 0.5px solid #eee;
+    border-radius: 3px;
+    padding-left: 28px;
+}
+
+.registerForm__signUpbtn{
+width: 76.5%;
+height: 37px;
+background-color: rgb(237, 213, 26);
+border: none;
+border-radius: 5px;
+color: black;
+font-size: large;
+padding: 0;
+}
+.registerForm__login-box{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 5px;
+padding: 0;
+width: 71%;
+}
+a{
+  text-decoration: none;
+  color: rgb(237, 213, 26);
+
+}
+.registerForm__login-parag{
+color: #5c5c5c;
+}
+
+.registerForm__demo-box{
+width: 71%;
+display:flex;
+flex-direction: column;
+align-items: center;
+}
+.registerForm__demo-parag{
+    color: #5c5c5c;
+    font-size: 18px;
+
+}
+.registerForm__demo-link{
+font-size: 18px;
+}
+
+
+
+
+
+
+
+
