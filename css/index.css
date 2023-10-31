@@ -1,4 +1,5 @@
 @import './navbar.css';
+@import './news.css';
 @font-face {
   font-family: IRANSans;
   src: url(../fonts/IRANSans/IRANSans.ttf);
@@ -300,12 +301,7 @@ i {
   margin-bottom: 18px;
 }
 
-.news {
-  width: 100%;
-  height: 640px;
-  background-color: black;
-  margin-top: 80px;
-}
+
 
 .courses {
   position: relative;

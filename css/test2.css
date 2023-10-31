@@ -28,7 +28,26 @@ input,button{
     border-radius: 3px;
     padding-left: 28px;
 }
-
+.checkbox-box{
+    width: 77%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+.rememberbox{
+    width: 32%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+label{
+    color: #5c5c5c;
+}
+#remember{
+    width: 15px;
+}
 .registerForm__signUpbtn{
 width: 76.5%;
 height: 37px;

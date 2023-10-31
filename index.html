@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/index.css">
      <link rel="stylesheet" href="./css/test.css">
+     <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
   </head>
   <body>
       
@@ -494,19 +495,50 @@
     <div class="news">
       <div class="container">
         <div class="main-news">
-          <swiper-container pagination class="demo-swiper-multiple" space-between="10" slides-per-view="3">
-            <swiper-slide><img src="./images/004-setting.webp" alt="" class="news__img"></swiper-slide>
-            <swiper-slide>Slide 2</swiper-slide>
-            <swiper-slide>Slide 3</swiper-slide>
-            <swiper-slide>Slide 4</swiper-slide>
-            <swiper-slide>Slide 5</swiper-slide>
-            <swiper-slide>Slide 6</swiper-slide>
-            <swiper-slide>Slide 7</swiper-slide>
-            <swiper-slide>Slide 8</swiper-slide>
-            <swiper-slide>Slide 9</swiper-slide>
-            <swiper-slide>Slide 10</swiper-slide>
-          </swiper-container>
-      
+            <div class="news-title">
+              <h2 class="news-title__tilte">Latest News</h2>
+              <p class="news-title__sub">Education news all over the world.</p>
+            </div>
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <a href="#" class="swiper-slider__link">
+                    <img src="./images/course-14-400x300.webp" class="swiper__img" alt="">
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="swiper-slider__link">
+                    <img src="./images/course-13-400x300.webp" class="swiper__img" alt="">
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="swiper-slider__link">
+                    <img src="./images/course-15-400x300.webp" class="swiper__img" alt="">
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="swiper-slider__link">
+                    <img src="./images/course-13-400x300.webp" class="swiper__img" alt="">
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="swiper-slider__link">
+                    <img src="./images/course-14-400x300.webp" class="swiper__img" alt="">
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="swiper-slider__link">
+                    <img src="./images/course-15-400x300.webp" class="swiper__img" alt="">
+                  </a>
+                </div>
+                
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+  
+            </div>
         </div>
       </div>
     </div>
@@ -525,6 +557,7 @@
     <script src="vendor/FontAwesome5/all.min.js"></script>
     <script src="vendor/SwiperSlider/swiper.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/slider.js"></script>
     <script src="js/index.js" type="module"></script>
 </body>
