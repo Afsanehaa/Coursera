@@ -1,5 +1,7 @@
 @import './navbar.css';
 @import './news.css';
+@import "./subscribe.css";
+
 @font-face {
   font-family: IRANSans;
   src: url(../fonts/IRANSans/IRANSans.ttf);

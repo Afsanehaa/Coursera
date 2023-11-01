@@ -57,5 +57,11 @@
   .btn{
     width: 100px;
     color: brown;
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
+  }
+  .swiper-pagination-bullet{
+    background-color: aquamarine;
+  }
+  .swiper-pagination-bullet-active{
+    background-color: black;
   }
