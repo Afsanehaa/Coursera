@@ -4,6 +4,7 @@
 @import './subscribe.css';
 @import './footer.css';
 @import "./registerModal.css";
+@import "./loginModal.css";
 @font-face {
   font-family: IRANSans;
   src: url(../fonts/IRANSans/IRANSans.ttf);

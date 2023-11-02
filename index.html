@@ -28,7 +28,7 @@
                  </li>
                  <li class="top-bar__item"> | </li>
                  <li class="top-bar__item">
-                    <button class="top-bar__link">Login</button>
+                    <button class="top-bar__link" id="login-btn">Login</button>
                  </li>
              </ul>
             </div>
@@ -646,6 +646,7 @@
     </div>
     <!-- finish footer-->
     <!-- start parallax footer-->
+    
      <div class="parallax">
       <div class="container  parallax-main">
          <h2 class="parallax-title">BECOME AN INSTRUCTOR?</h2>
@@ -656,8 +657,8 @@
 
     <!-- finish parallax footer-->
     <!-- start modal -->
-
-    <div class="Modal" id="myModal">
+       <!-- register modal -->
+    <div class="Modal" id="registerModal">
       <div class="modal-content">
            <div class="modal-header">
               <h1 class="registerForm__title">Register a new account </h1>
@@ -678,6 +679,37 @@
               </div>
        </div>
   </div>
+
+        <!-- login modal -->
+        <div class="modal"  id="loginModal">
+          <div class="registerForm">
+            <div class="modal-header">
+              <h1 class="registerForm__title">Login with your site account </h1>
+              <span class="close2">&times;</span>
+            </div>
+                  <input type="text" class="registerForm__username" placeholder="Username or email">
+                  <input type="password" class="registerForm__password" placeholder="Password">
+                  <div class="checkbox-box">
+                      <div class="rememberbox">
+                          <input type="checkbox" id="remember">
+                          <label for="remember"> Remember Me</label>
+                      </div>
+                      <a href="#" id="remember-link"> Lost your password?</a>
+                  </div>
+                  <button class="registerForm__signUpbtn">LOGIN</button>
+                  <div class="registerForm__login-box">
+                      <p class="registerForm__login-parag">Not a member yet?</p>
+                      <a href="#" class="registerForm__login-link">register now</a>
+                  </div>
+                  <div class="registerForm__demo-box">
+                      <p class="registerForm__demo-parag">Wanna see how Student, Instructor, or Admin look?
+                      </p>
+                      <a href="#" class="registerForm__demo-link">Click here to access Demo Account</a>
+                  </div>
+              </div>
+      </div>
+
+      <!-- finish modal -->
 
     <script src="vendor/FontAwesome5/all.min.js"></script>
     <script src="vendor/SwiperSlider/swiper.js"></script>

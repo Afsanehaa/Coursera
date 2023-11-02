@@ -1,15 +1,16 @@
-.body{
+
+.modal{
     width: 100%;
-    box-sizing: border-box;
-    background-color: aqua;
-}
-.test{
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.878);
-    display: flex;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+     position: fixed;
     align-items: center;
     justify-content: center;
+    z-index:99;
+    left: 0;
+    top: 0;
+    overflow: auto;
 }
 .registerForm{
     width: 35%;
