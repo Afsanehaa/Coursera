@@ -1,8 +1,9 @@
 @import './navbar.css';
-@import './news.css';
-@import "./subscribe.css";
-@import "./footer.css";
-
+@import './navbar.css';
+@import "./news.css";
+@import './subscribe.css';
+@import './footer.css';
+@import "./registerModal.css";
 @font-face {
   font-family: IRANSans;
   src: url(../fonts/IRANSans/IRANSans.ttf);
@@ -86,6 +87,8 @@ i {
   transition: all 400ms ease;
   font-size: 1.5rem;
   padding: 0 1rem;
+  background: inherit;
+  border: none;
 }
 
 .demo {
@@ -303,8 +306,6 @@ i {
 .certificate span {
   margin-bottom: 18px;
 }
-
-
 
 .courses {
   position: relative;

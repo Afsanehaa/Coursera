@@ -27,3 +27,5 @@ const swiperSlider = new Swiper('.swiper', {
     //   el: '.swiper-scrollbar',
     // },
   });
+
+  

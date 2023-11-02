@@ -43,7 +43,10 @@ $link-color:#ffffff66;
     transition: all 400ms ease;
     font-size: 1.5rem;
     padding: 0 1rem;
+    background: inherit;
+    border: none;
   }
+  
   .demo{
     color:$link-color;
   }

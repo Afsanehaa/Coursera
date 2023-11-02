@@ -24,11 +24,11 @@
             <div class="top-bar__right">
               <ul class="top-bar__menu">
                  <li class="top-bar__item">
-                    <a href="#" class="top-bar__link">Register</a>
+                    <button class="top-bar__link" id="register-btn">Register</button>
                  </li>
                  <li class="top-bar__item"> | </li>
                  <li class="top-bar__item">
-                    <a href="#" class="top-bar__link">Login</a>
+                    <button class="top-bar__link">Login</button>
                  </li>
              </ul>
             </div>
@@ -655,12 +655,35 @@
      </div>
 
     <!-- finish parallax footer-->
-    
+    <!-- start modal -->
+
+    <div class="Modal" id="myModal">
+      <div class="modal-content">
+           <div class="modal-header">
+              <h1 class="registerForm__title">Register a new account </h1>
+              <span class="close">&times;</span>
+           </div>
+              <input type="text" class="registerForm__username" placeholder="Username">
+              <input type="email" class="registerForm__email" placeholder="Email">
+              <input type="password" class="registerForm__password" placeholder="Password">
+              <input type="password" class="registerForm__repPass" placeholder="Repeat Password">
+              <button class="registerForm__signUpbtn">SIGN UP</button>
+              <div class="registerForm__login-box">
+                  <p class="registerForm__login-parag">Are you a member?</p>
+                  <a href="#" class="registerForm__login-link">Login now</a>
+              </div>
+              <div class="registerForm__demo-box">
+                  <p class="registerForm__demo-parag">Wanna see how Student, Instructor, or Admin look?</p>
+                  <a href="#" class="registerForm__demo-link">Click here to access Demo Account</a>
+              </div>
+       </div>
+  </div>
 
     <script src="vendor/FontAwesome5/all.min.js"></script>
     <script src="vendor/SwiperSlider/swiper.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/slider.js"></script>
+    <script src="./js/modal.js"></script>
     <script src="js/index.js" type="module"></script>
 </body>
