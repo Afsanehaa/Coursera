@@ -1,6 +1,7 @@
 @import './navbar.css';
 @import './news.css';
 @import "./subscribe.css";
+@import "./footer.css";
 
 @font-face {
   font-family: IRANSans;
