@@ -1,5 +1,6 @@
-@mixin flexStyle{
+@mixin flexStyle($justi){
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content:$justi ;
     @content;
   }

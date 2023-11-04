@@ -6,9 +6,7 @@
 }
 
 .courses__title{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    @include flexStyle(space-between){};
     margin-bottom: 50px;
 
 }
@@ -17,7 +15,7 @@ font-size: 28px;
 font-weight: 800;
 }
 .courses__subtitle{
-color: #999;
+color: $sub-color;
 }
 .courses__view{
     width: 100px;
@@ -38,12 +36,9 @@ color: #999;
     column-gap: var(--thim-ekits-course-column-gap,30px);
 }
 .course-box{
-display: flex;
-align-items: center;
-flex-direction: column;
-justify-content: space-between;
+@include flexStyle(space-between){flex-direction: column;};
 border-radius:5px 5px ;
-border: 0.5px solid #e3e3e3;
+border: 0.5px solid $primary-color1;
 width: 263px;
 }
 
@@ -68,34 +63,30 @@ border-radius:5px 5px 0 0 ;
 width: 47px;
 height: 47px;
 border-radius: 50%;
-border: 4px solid #fff;
+border: 4px solid $white-color;
 }
 .course-box__teacher-name{
 font-size: 13px;
-color: #999;
+color: $sub-color;
 }
 .course-box__title{
  width: 220px;
  text-align: center;
- border-bottom: 0.5px solid #e3e3e3;
+ border-bottom: 0.5px solid $primary-color3 ;
  font-size:15px;
 }
 .course-box__info{
-display: flex;
-justify-content: space-between;
-align-items: center;
+    @include flexStyle(space-between){};
 width: 220px;
 margin-top: 7px;
 margin-bottom:7px;
 }
 .course-box__info-left{
  width: 30%;
- display: flex;
- align-items: center;
- justify-content: space-between;
- color: #999;
+ @include flexStyle(space-between){};
+ color: $sub-color;
 }
 
 .course-box__info-right{
- color: red;
+ color: $price-color ;
 }

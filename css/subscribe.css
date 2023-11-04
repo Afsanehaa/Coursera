@@ -1,44 +1,44 @@
-.subscribe{
-    width: 100%;
-    height: 242px;
-    background-color: #f6f6f6;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.subscribe {
+  width: 100%;
+  height: 242px;
+  background-color: #f6f6f6;
 }
-.main-subscribe{
-    width:90%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.main-subscribe__parag{
-    width: 40%;
-    color: #999;
-}
-.main-subscribe__email{
-    width: 50%;
-    height: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.main-subscribe__email-input{
-    width: 75%;
-    height: 50px;
-    border-radius:6px 0 0 6px ;
-    box-shadow:5px 5px 5px #eee ;
-    color: #bebebe;
 
+.main-subscribe {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.main-subscribe__email-btn{
-    width: 25%;
-    height: 50px;
-    border-radius:0 6px 6px 0 ;
-    border: none;
-    box-shadow:5px 5px 5px #eee ;
-    background-color: #ffb606;
-    font-weight: 600;
-    padding-right: 15px;
-    
+
+.main-subscribe__parag {
+  width: 40%;
+  color: #999;
 }
+
+.main-subscribe__email {
+  width: 50%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-subscribe__email-input {
+  width: 75%;
+  height: 50px;
+  border-radius: 6px 0 0 6px;
+  box-shadow: 5px 5px 5px #eee;
+  color: #bebebe;
+}
+
+.main-subscribe__email-btn {
+  width: 25%;
+  height: 50px;
+  border-radius: 0 6px 6px 0;
+  border: none;
+  box-shadow: 5px 5px 5px #eee;
+  background-color: #ffb606;
+  font-weight: 600;
+  padding-right: 15px;
+}/*# sourceMappingURL=subscribe.css.map */

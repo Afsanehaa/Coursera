@@ -1,9 +1,9 @@
-$link-color:#ffffff66;
-@mixin flexStyle{
-  display: flex;
-  justify-content: space-between;
-  @content;
-}
+// @mixin flexStyle{
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center
+//   @content;
+// }
 /* Start Top-Bar Styles */
 .top-bar {
     color: var($dark-color);
@@ -14,24 +14,23 @@ $link-color:#ffffff66;
   }
 
   .top-bar__content {
-    @include flexStyle{
+    @include flexStyle(space-between){
       padding: 0 1.5rem;
     }
   }
   .top-bar__right {
-    @include flexStyle;
+    @include flexStyle(space-between);
   }
   
   .top-bar__menu {
-    @include flexStyle{
+    @include flexStyle(space-between){
       color:$link-color;
     }
   }
   .top-bar__email,
   .top-bar__phone {
-    @include flexStyle{
+    @include flexStyle(space-between){
       color: $white-color;
-      align-items: center;
     }
   }
   .contact{
@@ -51,7 +50,7 @@ $link-color:#ffffff66;
     color:$link-color;
   }
   .top-bar__left {
-    @include flexStyle{
+    @include flexStyle(space-between){
       direction: ltr;
     }
   }

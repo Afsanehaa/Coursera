@@ -29,5 +29,8 @@ a {
 i {
   user-select: none;
 }
+button{
+ @include flexStyle(center){};
+}
 
 /* Finish Default Styles */

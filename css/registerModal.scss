@@ -1,0 +1,98 @@
+
+.Modal{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+     position: fixed;
+    align-items: center;
+    justify-content: center;
+    z-index:99;
+    left: 0;
+    top: 0;
+    overflow: auto;
+
+
+}
+.modal-content{
+    width: 35%;
+    height: 70%;
+    background-color: $white-color;
+    @include flexStyle(space-evenly){
+        flex-direction: column;
+    };
+    
+}
+.modal-header{
+    width: 80%;
+    @include flexStyle(space-between){};
+}
+.registerForm__title{
+    font-size: 25px;
+    font-weight: 700;
+}
+input,button{
+    width: 70%;
+    height: 35px;
+    border: 0.5px solid $primary-color3;
+    border-radius: 3px;
+    padding-left: 28px;
+}
+
+.registerForm__signUpbtn{
+width: 76.5%;
+height: 37px;
+background-color: $primary-color2;
+border: none;
+border-radius: 5px;
+color: $black-color;
+font-size: large;
+}
+.registerForm__login-box{
+@include flexStyle(center){};
+height: 5px;
+padding: 0;
+width: 71%;
+}
+a{
+  text-decoration: none;
+  color: $primary-color2;
+}
+.registerForm__login-parag{
+color: $dark-color;
+}
+
+.registerForm__demo-box{
+width: 71%;
+@include flexStyle{flex-direction: column;};
+
+
+}
+.registerForm__demo-parag{
+    color: $dark-color;
+    font-size: 18px;
+
+}
+.registerForm__demo-link{
+font-size: 18px;
+}
+
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: $black-color;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+
+
+

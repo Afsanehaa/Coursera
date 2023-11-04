@@ -2,13 +2,18 @@
 @import "./fonts";
 @import "./defaults";
 @import "./top-bar";
-@import './navbar.css';
+@import './navbar.scss';
 @import "./minixes";
 @import "./Statistical";
 @import "./category";
 @import "./newCourses";
 @import "./certificates";
 @import "./courses";
+@import "./news.css";
+@import "./subscribe.scss";
+@import "./footer.scss";
+@import "./loginModal.scss";
+@import "./registerModal.scss";
 
 
 
@@ -18,22 +23,35 @@
 
 .landing {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/home-coursera-new.webp) no-repeat center center;
-    
+
     height: 520px;
     background-attachment: fixed;
     text-align: center;
     padding: 9rem 0;
-    color: var(#fff);
+    color: $white-color;
   }
+  .toggle{
+    width: 80px;
+    height: 80px;
+    background-color: #d00050;
+    position: sticky;
+    top: 25%;
+    right: 0;
+    opacity: 1;
+    z-index: 99;
+   h4{
+    color: $white-color;
+   }
+}
 .landing__title{
     font-size: 3.4rem;
     font-weight:bold;
-    color: #fff;
+    color: $white-color;
 }  
 .landing__subtitle{
     font-size: 1.8rem;
     margin-top: 0.3rem;
-    color: #fff;
+    color: $white-color;
 
 }
 .landing__searchbar{
@@ -43,7 +61,7 @@
     position:relative;
     margin: 3.5rem auto;
     background: none;
-    border:1px solid #fff;
+    border:1px solid $white-color;
     border-radius: 3px;
     direction: ltr;
 }
@@ -53,12 +71,12 @@
     border: none;
     border-radius: 1rem;
     background: none;
-    color: #fff;
+    color: $white-color;
     
 }
 .landing__searchbar-btn{
     border: none;
-    background-color: #fff;
+    background-color: $white-color;
     position: absolute;
     right: 0rem;
     width: 6rem;
@@ -71,15 +89,17 @@
 }
 .landing-status{
     direction: ltr;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flexStyle(center){
+
+    }
 }
 .landing-status__item{
- color: #fff;
+ color: $white-color;
  margin:10px 35px;
  font-size: large;
  
 }
+
 /* Finish landing Styles */
+
 
